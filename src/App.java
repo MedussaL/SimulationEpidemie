@@ -7,8 +7,7 @@ public class App {
         int largeur_hauteur = 300;
         int hauteur = 300;
         int nombreDeJours = 730;
-        int nombreDeRepetitions = 1;
-        //int nombreDeRepetitions = 100;  // Choisissez le nombre de répétitions
+        int nombreDeRepetitions = 100;  // Choisissez le nombre de répétitions
         MTRandom randomGenerator = new MTRandom(12345); // Create the random generator
 
         for (int repetition = 0; repetition < nombreDeRepetitions; repetition++) {
@@ -18,9 +17,7 @@ public class App {
             ModeleSEIR modele = new ModeleSEIR(population);
 
             // Créez un nom de fichier unique pour chaque répétition
-            //String nomFichier = "donnees_simulation_replication_" + repetition + ".csv";
-            String nomFichier = "data1/donnees_simulation_replication_" + repetition + ".csv";
-
+            String nomFichier = "data/donnees_simulation_replication_" + repetition + ".csv";
 
             try (FileWriter writer = new FileWriter(nomFichier)) {
                 writer.write("Jour,Susceptible,Exposed,Infected,recovered\n"); // En-têtes
