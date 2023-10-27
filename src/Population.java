@@ -7,10 +7,7 @@ public class Population {
     final int nbre_individu=20000;
     public final int largeur_hauteur=300;
 
-
-
-
-
+    
     public Population() {
         this.grille = new List[largeur_hauteur][largeur_hauteur];
         for (int x = 0; x < largeur_hauteur; x++) {
