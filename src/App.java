@@ -16,7 +16,7 @@ public class App{
             ModeleSEIR modele = new ModeleSEIR(population);
 
             // Créez un nom de fichier unique pour chaque répétition
-            String nomFichier = ".\\bin\\data\\donnees_simulation_replication_" + repetition + ".csv";
+            String nomFichier = "./bin/data/donnees_simulation_replication_" + repetition + ".csv";
 
 
             try (FileWriter writer = new FileWriter(nomFichier)) {
