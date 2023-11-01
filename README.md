@@ -11,5 +11,7 @@ Il suffit d'installer l'extention `DotUML` sur Visual Studio Code, ouvrir le fic
 
 
 Pour exécuter tout le projet depuis le répértoire principal :
+  
   $ javac -d ./bin ./src/*.java
+  
   $ java -cp ./bin App
