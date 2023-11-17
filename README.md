@@ -16,7 +16,9 @@ Pour exécuter tout le projet depuis le répértoire principal :
   
   $ java -cp ./bin App
 
-•	Modélisation Multi-Agent en Java pour simuler la propagation d'une maladie
+  
+
+Modélisation Multi-Agent en Java pour simuler la propagation d'une maladie :
 
   - Développement d'un modèle multi-agent pour simuler la propagation d'une maladie dans une population.
   
