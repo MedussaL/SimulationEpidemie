@@ -11,11 +11,10 @@ Il suffit d'installer l'extention `DotUML` sur Visual Studio Code, ouvrir le fic
 
 
 Pour exécuter tout le projet depuis le répértoire principal :
-  
+```bash
   $ javac -d ./bin ./src/*.java
-  
   $ java -cp ./bin App
-
+```
 /n
 
 ### Modélisation Multi-Agent en Java pour simuler la propagation d'une maladie :
