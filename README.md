@@ -15,7 +15,7 @@ Pour exécuter tout le projet depuis le répértoire principal :
   $ javac -d ./bin ./src/*.java
   $ java -cp ./bin App
 ```
-/n
+
 
 ### Modélisation Multi-Agent en Java pour simuler la propagation d'une maladie :
 
